@@ -1,0 +1,40 @@
+{
+
+  "fe": {
+
+    "babel"  : ["./src/fe/js/**/*.js", "./src/fe/jsx/**/*.jsx"],
+    "flow"   : ["./src/fe/js/**/*.js", "./src/fe/jsx/**/*.jsx"],
+
+    "html"   : ["./src/fe/html/**/*.html"],
+    "js"     : "./src/fe/js/**/*.js",
+    "jsx"    : "./src/fe/jsx/**/*.jsx",
+
+    "less"   : "./src/fe/less/index.less",
+
+    "bundle" : ["./build/fe/bundle/**/*"]
+
+  },
+
+  "be": {
+
+    "babel" : ["./src/be/**/*.js", "./src/be/**/*.jsx"],
+    "flow"  : ["./src/be/**/*.js", "./src/be/**/*.jsx"],
+
+    "jsx"   : "./src/be/**/*.jsx",
+
+    "less"  : "./src/be/less/index.less"
+
+  },
+
+  "sh": {
+
+    "babel" : ["./src/shared/**/*.js", "./src/shared/**/*.jsx"],
+    "flow"  : ["./src/shared/**/*.js", "./src/shared/**/*.jsx"],
+
+    "jsx"   : "./src/shared/**/*.jsx",
+
+    "less"  : "./src/shared/less/index.less"
+
+  }
+
+}
