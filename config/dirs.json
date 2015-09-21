@@ -1,0 +1,40 @@
+{
+
+  "fe": {
+    "js"             : "./src/fe/js",
+
+    "build"          : "./build/fe",
+    "built_js"       : "./build/fe/js",
+
+    "bundle"         : "./build/fe/bundle",
+
+    "publish"        : "./build/fe/publish",
+    "publish_css"    : "./build/fe/publish",
+    "publish_assets" : "./build/fe/publish/assets",
+
+    "fixtures"       : "./test/fe/fixtures"
+  },
+
+  "be": {
+    "build"          : "./build/be",
+    "built_js"       : "./build/be/js",
+
+    "bundle"         : "./build/be/bundle",
+
+    "publish"        : "./build/be/publish",
+    "publish_css"    : "./build/be/publish",
+    "publish_assets" : "./build/be/publish/assets"
+  },
+
+  "sh": {
+    "build"          : "./build/shared",
+    "built_js"       : "./build/shared/js",
+
+    "bundle"         : "./build/shared/bundle",
+
+    "publish"        : "./build/shared/publish",
+    "publish_css"    : "./build/shared/publish",
+    "publish_assets" : "./build/shared/publish/assets"
+  }
+
+}
